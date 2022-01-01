@@ -7,10 +7,10 @@ USE CASE:
 3) call .calculate() on the object to evaluate the expression which will return the result.
 
 EXAMPLE:
-a = "( 4 + 12 * 2 ) - 3 / 9 * ( 5 * 3 - 1 )"
-expression = OrderOfOps(a)
-result = expression.calculate()
-print(result)
+1. a = "( 4 + 12 * 2 ) - 3 / 9 * ( 5 * 3 - 1 )"
+2. expression = OrderOfOps(a)
+3. result = expression.calculate()
+4. print(result)
 
 BACKGROUND:
 This program uses conversions to and from infix and postfix expressions to allow a computer to evaluate expressions that need to follow the rules of order of operations.
