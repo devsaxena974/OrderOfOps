@@ -111,10 +111,3 @@ class OrderOfOps:
         pfix_arr = self.__convert_to_array(pfix_string)
         result = self.__evaluate_postfix(pfix_arr)
         return result
-
-
-if __name__ == "__main__":
-    ex = "( 4 + 12 * 2 ) - 3 / 9 * ( 5 * 3 - 1 )"
-    obj = OrderOfOps(ex)
-    res = obj.calculate()
-    print(res)
